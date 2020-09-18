@@ -10,7 +10,10 @@ namespace FreeShop.Core
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("EST");
+            var cl = new ClassLibrary1.Class1();
+
+            var num = cl.Add(1, 2);
+            Console.WriteLine("EST " + num.ToString());
         }
     }
 }
